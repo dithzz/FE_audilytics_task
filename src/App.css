@@ -1,0 +1,118 @@
+.content {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+  justify-content: center;
+}
+
+.backgroundContent {
+  background-image: white;
+
+}
+
+/* .App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  color: white;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+} */
+
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  justify-content: center !important;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+button:disabled {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: unset;
+  color: #7439db;
+  opacity: 0.7;
+}
+
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.menuItem {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.menuItem > a {
+  color: white;
+  text-decoration: unset;
+}
+
+.tick  {
+  font-size: 200px !important;
+  color: green
+}
+
+.close {
+  font-size: 200px !important;
+  color: red
+
+}
+
+.profileButton {
+  background: rgb(25, 116, 235);
+  color: white;
+  margin-bottom: 30px;
+}
+
+input {
+  background-color: rgb(225, 236, 241);
+}
+
+input:disabled {
+  background-color: rgb(226, 220, 220);
+  opacity: 0.6
+}
+
+.logout {
+  color: red;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px
+}
